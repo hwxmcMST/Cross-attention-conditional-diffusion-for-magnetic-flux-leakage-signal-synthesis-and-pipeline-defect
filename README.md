@@ -15,7 +15,13 @@ Magnetic flux leakage (MFL) inspection is a widely used nondestructive technique
   <img width="865" height="696" alt="image" src="https://github.com/user-attachments/assets/dd14f59e-8010-43d6-83a3-c8f01a5cd301" />
 </p>
 
----
+## 📊 Dataset
+
+The MFL signal dataset used in this work is **not publicly available** due to data access restrictions.
+To use this code, you may:
+
+- Use your own pipeline inspection data  
+- Format your data following the preprocessing pipeline implemented in `dataset.py` 
 
 ## 📂 Project Structure
 
@@ -45,13 +51,7 @@ Magnetic flux leakage (MFL) inspection is a widely used nondestructive technique
 ├── image_metrics.py         # Evaluation metrics
 ├── average_metrics.json     # Experiment results
 
-## 📊 Dataset
-
-The MFL signal dataset used in this work is **not publicly available** due to data access restrictions.
-To use this code, you may:
-
-- Use your own pipeline inspection data  
-- Format your data following the preprocessing pipeline implemented in `dataset.py`  
+ 
 
 
 
