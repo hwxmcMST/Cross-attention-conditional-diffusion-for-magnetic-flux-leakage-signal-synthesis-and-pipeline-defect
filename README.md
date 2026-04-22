@@ -1,2 +1,8 @@
-<img width="865" height="696" alt="image" src="https://github.com/user-attachments/assets/dd14f59e-8010-43d6-83a3-c8f01a5cd301" /># Cross-Attention-Conditional-Diffusion-for-Magnetic-Flux-Leakage-
+Magnetic flux leakage (MFL) inspection is a widely used nondestructive technique for detecting pipeline corrosion and metal loss, but its effectiveness is limited by the scarcity of diverse, high-quality data, since both field measurements and physics-based simulations are costly. This study proposes a cross-attention conditional diffusion model (XCDiff), guided by pipeline defect geometry parameters, to synthesize high-fidelity MFL signals. XCDiff employs a geometry-aware U-Net denoiser in which cross-attention fuses defect geometry embeddings into feature maps at every encoder-decoder stage, enabling the denoising process to adapt to varying defect configurations and produce geometry-consistent multi-channel magnetic field responses. The trained XCDiff model is used to generate augmented MFL samples for training a downstream ResNet to predict defect depth, width, and length. As more XCDiff-augmented data are incorporated, the downstream regression model achieves higher accuracy and reduced predictive uncertainty, reflected by progressively narrower prediction intervals. These results demonstrate that diffusion-based augmentation with XCDiff improves both predictive performance and uncertainty quantification in MFL-based pipeline defect assessment.
+
+
+<img width="865" height="696" alt="image" src="https://github.com/user-attachments/assets/dd14f59e-8010-43d6-83a3-c8f01a5cd301" /># Cross-attention conditional diffusion for magnetic flux leakage signal synthesis and pipeline defect uncertainty analysis
+
+
+Wu, Hao, et al. "Cross-attention conditional diffusion for magnetic flux leakage signal synthesis and pipeline defect uncertainty analysis." Measurement (2026): 121208.
 
