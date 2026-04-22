@@ -54,5 +54,5 @@ If you use this code, please cite:
   journal={Measurement},
   year={2026},
   pages={121208}
-}Wu, Hao, et al. "Cross-attention conditional diffusion for magnetic flux leakage signal synthesis and pipeline defect uncertainty analysis." Measurement (2026): 121208.
+}
 
